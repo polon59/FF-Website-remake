@@ -1,0 +1,264 @@
+@font-face {
+    font-family: LightItalic;
+    src: url("../Poppins/Poppins-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: regular;
+    src: url("../Poppins/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: extraThin;
+    src: url("../Poppins/Poppins-Thin.ttf")
+}
+
+li{
+    list-style-type: none;
+    padding: 0.5vw;
+}
+
+ul{
+    margin: 0;
+}
+
+p {
+    line-height: 120%;
+    font-size: 1.1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+h1{
+    font-family: extraThin;
+    font-size: 2.7vw;
+}
+
+h2{
+    font-family: extraThin;
+    font-size: 1.8vw;
+}
+
+h3{
+    font-family: extraThin;
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 1.2vw;
+    margin-bottom: 0;
+    font-family: extraThin;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 1.3vw;
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+    opacity: 0.5;
+}
+
+.active{
+    color: black;
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url("../Resources/bodyBackground.png");
+}
+
+#MAIN{
+    font-family: regular;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 0%;
+    background-color: rgba(114, 114, 114, 0.021);
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    #MAIN {
+        margin-top: 0%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0%;
+    }
+  }
+
+#logo{
+    width: 25%;
+    height: 15%;
+}
+
+.logoTextBox{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: LightItalic;
+    text-align: center;
+    white-space: normal;
+    
+}
+
+/* BOTTOM================================================================================================================ */
+
+footer{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer p{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+footer img{
+    width: 100%;
+}
+
+/* slideshow ======================================================================================================DN*/
+
+.mySlides {
+    display: none;
+    height: auto;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+  margin: 0 2px;
+  background-color: rgb(255, 111, 111);
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.6s ease;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* NAVIGATION BAR =================================================================================================== */
+#navbar{
+    display: inline-block;
+    width: 100%;
+    height: 3.37vw;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    background-image: url("../Resources/StructureImages/topNavBar.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.navbarRow{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 1px;
+    height: 100%;
+    
+}
+
+.navbarBox{
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.navbarBox p{
+    margin-top: 0.7vw;
+    vertical-align: middle;
+}
+
+#navbarTelephoneBox{
+    vertical-align: bottom;
+}
+
+#navbarTelephone{
+    padding: 0;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#navbarTelephone p{
+    margin: 0;
+    margin-bottom: 0vw;
+    text-align: left;
+    font-size: 0.85vw;
+}
+
+
+/* Products MENU ========================================================================================================= */
+
+.productsBoxMenuRow
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 1.5vw;
+}
+
+.productsBox
+{
+    display: table-cell;
+    text-align: left;
+    height: 50px;
+}
+
+.productsBox p{
+    margin-top: 1px;
+    font-size: 1.2vw;
+}
+
+.productsBox h4{
+    font-size: 1.7vw;
+    margin-top: 2px;
+}
+
+.productsBox img{
+    width: 100%;
+    height: 15vw;
+}
+
+/* ADVANTAGES=========================================================================================================== */
+
+.companyAdvantages img{
+    width: 100%;
+}
+
+
+
+
