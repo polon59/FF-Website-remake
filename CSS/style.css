@@ -19,101 +19,6 @@
     }
 }
 
-
-.navbar {
-    min-height: 50px;
-    max-height: 60px;
-    margin-bottom: 20px;
-    background-color: rgb(219, 190, 0);
-}
-
-.navbar-container{
-    padding-left: 0;
-}
-
-.navbar-logo{
-    min-height: 50px;
-    max-height: 59px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-li{
-    list-style-type: none;
-    padding: 0.5vw;
-}
-
-ul{
-    margin: 0;
-}
-
-p {
-    line-height: 120%;
-    font-size: 1.1vw;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-}
-
-h1{
-    font-family: extraThin;
-    font-size: 2.7vw;
-}
-
-h2{
-    font-family: extraThin;
-    font-size: 1.8vw;
-}
-
-h3{
-    font-family: extraThin;
-    font-size: 1.5vw;
-    margin-bottom: 0;
-}
-
-h4{
-    font-size: 1.2vw;
-    margin-bottom: 0;
-    font-family: extraThin;
-}
-
-a{
-    text-decoration: none; 
-    font-size: 1.3vw;
-    color: white;
-}
-
-a:hover{
-    color: yellow;
-    opacity: 0.5;
-}
-
-.active{
-    color: black;
-}
-
-header{
-    text-align: center;
-}
-
 body{
     margin: 0px;
     background-color: black;
@@ -139,20 +44,6 @@ body{
         margin-bottom: 0%;
     }
   }
-
-#logo{
-    width: 25%;
-    height: 15%;
-}
-
-.logoTextBox{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-family: LightItalic;
-    text-align: center;
-    white-space: normal;
-    
-}
 
 /* BOTTOM================================================================================================================ */
 
