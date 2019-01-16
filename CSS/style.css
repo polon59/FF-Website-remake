@@ -29,6 +29,10 @@
     margin-right: 8px;
 }
 
+.navbar-nav>li>a{
+    color: rgb(85, 85, 85) !important;
+}
+
 .activ{
     background-color: rgb(255, 251, 221);
 }
