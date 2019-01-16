@@ -19,6 +19,28 @@
     }
 }
 
+
+
+
+.navbar-logo{
+    height:50px; 
+    padding-right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     margin: 0px;
     background-color: black;
@@ -29,8 +51,8 @@ body{
 #MAIN{
     font-family: regular;
     margin-top: 0%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    /* margin-left: 7.5%;
+    margin-right: 7.5%; */
     margin-bottom: 0%;
     background-color: rgba(114, 114, 114, 0.021);
     color: white;
