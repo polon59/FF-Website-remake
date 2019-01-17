@@ -9,12 +9,6 @@
     src: url("../Poppins/Poppins-Thin.ttf")
 }
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 970px;
-    }
-}
-
 
 
 
@@ -101,15 +95,18 @@ a:focus, a:hover{
     color: rgb(219, 190, 0);
 }
 
+.opinions-header .glyphicon{
+    font-size: 50px;
+}
+
 #opinions{
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgba(107, 99, 45, 0.329);
-
+    background-color: rgba(109, 109, 109, 0.329);
 }
 
 .opinion{
-    min-height: 200px;
+    min-height: 230px;
     padding-top: 40px;
     padding-left: 20%;
     padding-right: 20%;
