@@ -157,6 +157,32 @@ footer a{
 
 
 
+/* CONTACT */
+
+.company-info{
+    background-color: rgba(252, 212, 15, 0.898);
+    box-shadow: rgb(117, 105, 23) 2px 2px 160px 0px inset;
+    color: white;
+}
+
+.company-info h5{
+    color: rgb(100, 100, 100);
+}
+
+.company-info-header h3{
+    text-transform: uppercase;
+    font-family: extraThin;
+}
+
+.company-info-middle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+
+
+
 
 
 
