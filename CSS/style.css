@@ -97,9 +97,28 @@ a:focus, a:hover{
     color: rgb(219, 190, 0);
 }
 
+.opinions-header{
+    color: rgb(219, 190, 0);
+}
+
+#opinions{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(107, 99, 45, 0.329);
+
+}
+
 .opinion{
     min-height: 200px;
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
 
+.opinion .author{
+    color: rgb(138, 138, 138);
+    font-style: italic;
 }
 
 
