@@ -183,6 +183,10 @@ footer a{
     color: rgb(160, 160, 160);
 }
 
+.phone-info .col-sm-6{
+    margin-bottom: 25px;
+}
+
 .phone-info h4{
     color: white;
     margin-bottom: 20px;
