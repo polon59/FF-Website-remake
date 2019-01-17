@@ -185,8 +185,13 @@ footer a{
 
 .phone-info h4{
     color: white;
+    margin-bottom: 20px;
 }
 
+.phone-info .glyphicon{
+    margin-right: 10px;
+    color: rgb(202, 202, 202);
+}
 
 
 
