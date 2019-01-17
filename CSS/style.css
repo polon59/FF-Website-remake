@@ -101,6 +101,10 @@ body{
     font-family: regular;
 }
 
+.content{
+    margin-top: 50px;
+}
+
 footer{
     background-color: rgb(219, 190, 0);
     padding: 10px;
