@@ -97,6 +97,11 @@ a:focus, a:hover{
     color: rgb(219, 190, 0);
 }
 
+.opinion{
+    min-height: 200px;
+
+}
+
 
 body{
     margin: 0px;
