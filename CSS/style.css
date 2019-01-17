@@ -159,6 +159,11 @@ footer a{
 
 /* CONTACT */
 
+.contact-header{
+    color: white;
+    font-family: extraThin;
+}
+
 .company-info{
     background-color: rgba(252, 212, 15, 0.898);
     box-shadow: rgb(117, 105, 23) 2px 2px 160px 0px inset;
