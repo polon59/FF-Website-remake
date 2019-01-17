@@ -137,12 +137,17 @@ footer{
     background-color: rgb(219, 190, 0);
     padding: 10px;
     margin-top: 30px;
-    color: rgb(85, 85, 85) !important;
+    color: rgb(53, 53, 53) !important;
 }
 
-footer ul{
-    list-style-type: none !important;
-    padding: 0;
+footer a{
+    color: rgb(53, 53, 53) !important;
+}
+
+.footer-text-bottom{
+    margin-top:10px; 
+    font-size: x-small; 
+    color:rgb(141, 141, 141);
 }
 
 
