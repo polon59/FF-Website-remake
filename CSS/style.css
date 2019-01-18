@@ -202,6 +202,22 @@ footer a{
     color: rgb(202, 202, 202);
 }
 
+.map{
+    background-color: rgba(252, 212, 15, 0.898);
+    box-shadow: rgb(117, 105, 23) 2px 2px 160px 0px inset;
+    color: rgb(136, 136, 136);
+}
+
+.map-info{
+    padding-top: 3vw;
+}
+
+.map-info h3{
+    text-transform: uppercase;
+}
+
+
+
 
 
 
