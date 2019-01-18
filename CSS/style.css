@@ -139,7 +139,8 @@ body{
 }
 
 footer{
-    background-color: rgb(219, 190, 0);
+    background-color: rgba(252, 212, 15, 0.898);
+    box-shadow: rgb(117, 105, 23) 2px 2px 160px 0px inset;
     padding: 10px;
     margin-top: 30px;
     color: rgb(53, 53, 53) !important;
