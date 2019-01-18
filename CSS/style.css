@@ -163,6 +163,7 @@ footer a{
 .contact-header{
     color: white;
     font-family: extraThin;
+    letter-spacing: 0.3vw;
 }
 
 .company-info{
@@ -223,6 +224,12 @@ footer a{
 }
 
 
+/* ABOUT */
+
+
+.about-us-text{
+    color: white;
+}
 
 
 
