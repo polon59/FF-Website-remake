@@ -217,6 +217,10 @@ footer a{
     text-transform: uppercase;
 }
 
+.map button:hover{
+    filter: brightness(150%);
+}
+
 
 
 
