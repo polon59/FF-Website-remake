@@ -261,8 +261,19 @@ footer a{
     color:white;
 }
 
-.filter-buttons{
-    display: block;
+#image-filter-menu button{
+    background-color: rgb(252, 209, 15);
+    border: 1px solid rgba(146, 119, 0, 0.898);
+    color: rgb(100, 100, 100);
+}
+
+#image-filter-menu .container-fluid{
+    background-color: transparent;
+}
+
+#image-filter-menu .dropdown-menu{
+    padding: 0;
+    background-color: transparent;
 }
 
 .filter-buttons-dropdown{
