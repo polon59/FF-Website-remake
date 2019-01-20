@@ -261,6 +261,23 @@ footer a{
     color:white;
 }
 
+.filter-buttons{
+    display: block;
+}
 
+.filter-buttons-dropdown{
+    background-color: white;
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .filter-buttons{
+        display: none;
+    }
+
+    .filter-buttons-dropdown{
+        display: block;
+    }
+  }
 
 
