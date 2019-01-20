@@ -270,6 +270,18 @@ footer a{
     display: none;
 }
 
+.filter-buttons-dropdown .btn-group{
+    width: 100%;
+}
+
+.filter-buttons-dropdown .dropdown-menu{
+    width: 100%;
+}
+
+.filter-buttons-dropdown button{
+    width: 100%;
+}
+
 @media only screen and (max-width: 950px) {
     .filter-buttons{
         display: none;
