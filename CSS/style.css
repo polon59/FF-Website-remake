@@ -267,6 +267,12 @@ footer a{
     color: rgb(100, 100, 100);
 }
 
+#image-filter-menu button:hover{
+    background-color: rgb(233, 190, 1);
+    border: 1px solid rgba(95, 76, 0, 0.898);
+    color: rgb(73, 73, 73);
+}
+
 #image-filter-menu .container-fluid{
     background-color: transparent;
 }
