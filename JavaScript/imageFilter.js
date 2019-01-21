@@ -6,3 +6,13 @@ function filterSeclection(categoryName) {
     $(`.${categoryName}`).show();
   }
 }
+
+
+function showImage(category, index) {
+  
+}
+
+
+function openImgOverlay() {
+  
+}
