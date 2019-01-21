@@ -12,9 +12,14 @@ class GallerySlideShow{
 
 
     displayModal(imageBox){
-    //    let imageInModal = $("#modal").getElementsByTagName('img')[0];
 
-    // set current image in modal to index from categorylist
+       
+       console.log("show");
+       let indexInCategory = imageBox.getAttribute('data-index')-1;
+
+       let a = this.currentCategoryImgList[indexInCategory].getAttribute('src');
+
+       $("#modal img").attr('src', a);
        $("#modal").show();
 
         // console.log(imageBox.getAttribute('data-category'));
@@ -28,7 +33,7 @@ class GallerySlideShow{
 
     changeCurrentCategoryImgList(newCategory){
         if (newCategory == "all") {
-            this.currentCategoryList = document.getElementsByClassName("imageBox");
+            this.currentCategoryList = document.getElementsByClassName("image-box");
         } else {
             this.currentCategoryList = document.getElementsByClassName(newCategory);
         }
