@@ -11,13 +11,12 @@ class GallerySlideShow{
     }
 
 
-    displayModal(imageBox){
+    displayModal(currentIndex){
 
-       
        console.log("show");
-       let indexInCategory = imageBox.getAttribute('data-index')-1;
+       this.currentIndex = currentIndex;
 
-       let a = this.currentCategoryImgList[indexInCategory].getAttribute('src');
+       let a = this.currentCategoryImgList[this.currentIndex].getAttribute('src');
 
        $("#modal img").attr('src', a);
        $("#modal").show();
@@ -29,6 +28,9 @@ class GallerySlideShow{
 
 
 
+    updateIndex(){
+
+    }
 
 
     changeCurrentCategoryImgList(newCategory){

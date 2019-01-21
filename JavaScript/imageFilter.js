@@ -11,9 +11,16 @@ function filterSeclection(categoryName) {
   }
 }
 
+function displayPrevPhoto(){
+  gallerySlides.updateIndex(-1);
+}
 
+function displayNextPhoto(){
+  gallerySlides.updateIndex(1);
+}
 
 
 function openModal(imageBox) {
-  gallerySlides.displayModal(imageBox);
+  let currentIndex = imageBox.getAttribute('data-index')-1;
+  gallerySlides.displayModal(currentIndex);
 }
