@@ -24,8 +24,17 @@ class GallerySlideShow{
         $("#modal").hide();
     }
 
-    setNewIndex(selectedImageDataIndex){
-        this.currentIndex = selectedImageDataIndex;
+    setNewIndex(selectedImage){
+        if (this.currentCategory == "image-box") {
+            this.currentIndex = selectedImage.getAttribute('id')-1;
+        } else {
+            this.currentIndex = selectedImage.getAttribute('data-index')-1;
+        }
+
+        console.log(this.currentCategory);
+        console.log(this.currentIndex + " CURR INDEX");
+        console.log(this.currentCategoryImgList.length + " FULL LEN")
+        // this.currentIndex = selectedImageDataIndex;
     }
 
     updateIndex(value){
@@ -46,6 +55,8 @@ class GallerySlideShow{
         for (let divElement of this.currentCategoryList) {
             this.currentCategoryImgList.push(divElement.getElementsByTagName('img')[0]);
         }
+
+        console.log(this.currentCategoryImgList.length + " FULL LEN")
     }
 
     changeCategory(newCategory){

@@ -1,6 +1,5 @@
 var gallerySlides = new GallerySlideShow();
 
-
 function filterSeclection(categoryName) {
     $(".image-box").hide();
     $(`.${categoryName}`).show();
@@ -20,7 +19,6 @@ function closeModal(){
 }
 
 function openModal(selectedImage) {
-  let selectedImageDataIndex = selectedImage.getAttribute('data-index')-1;
-  gallerySlides.setNewIndex(selectedImageDataIndex);
+  gallerySlides.setNewIndex(selectedImage);
   gallerySlides.displayModal();
 }
