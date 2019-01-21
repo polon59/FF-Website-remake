@@ -15,6 +15,9 @@ function displayNextPhoto(){
   gallerySlides.updateIndex(1);
 }
 
+function closeModal(){
+  gallerySlides.hideModal();
+}
 
 function openModal(selectedImage) {
   let selectedImageDataIndex = selectedImage.getAttribute('data-index')-1;
