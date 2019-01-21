@@ -28,8 +28,9 @@ class GallerySlideShow{
 
 
 
-    updateIndex(){
-
+    updateIndex(value){
+        this.currentIndex += value;
+        this.displayModal(this.currentIndex);
     }
 
 

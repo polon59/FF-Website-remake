@@ -329,12 +329,10 @@ footer a{
 
 
   .modal {
-    display: inline-block;
+    display: none;
     left: 50%;
-    opacity: 0;
     position: fixed;
     top: 40%;
-    visibility: hidden;
     z-index: 10;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
