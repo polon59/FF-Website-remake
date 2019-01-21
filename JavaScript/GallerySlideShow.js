@@ -40,11 +40,13 @@ class GallerySlideShow{
     updateIndex(value){
         this.currentIndex += value;
         if (this.currentIndex < 0) {
-            this.currentIndex = this.currentCategoryImgList.length;
+            this.currentIndex = this.currentCategoryImgList.length-1;
         }
         else if(this.currentIndex >= this.currentCategoryImgList.length){
             this.currentIndex = 0;
         }
+
+        console.log(this.currentIndex + " CURR INDEX");
         this.displayModal(this.currentIndex);
     }
 
