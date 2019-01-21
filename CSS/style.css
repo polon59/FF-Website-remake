@@ -322,6 +322,64 @@ footer a{
       height: 100%;
   }
 
+
+
+
+  /* gallery */
+
+
+  .modal {
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    position: fixed;
+    top: 40%;
+    visibility: hidden;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+    text-align: center;
+}
+
+
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 2vw;
+    line-height: 2vw;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -1vw;
+    width: 2vw;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+
+.close:hover {
+    background-color: rgba(211, 182, 16, 0.8);
+}
+
+
+
 @media only screen and (max-width: 965px) {
     .filter-buttons{
         display: none;
