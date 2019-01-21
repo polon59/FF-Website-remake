@@ -1,5 +1,4 @@
 var gallerySlides = new GallerySlideShow();
-gallerySlides.changeCategory("image-box");
 
 
 function filterSeclection(categoryName) {

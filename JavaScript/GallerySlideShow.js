@@ -2,12 +2,17 @@
 class GallerySlideShow{
 
     constructor(){
-        $(".image-box").attr('onclick', 'openModal(this)')
         this.currentCategory;
         this.currentCategoryIndex;
         this.currentIndex;
         this.currentCategoryList = new Array();
         this.currentCategoryImgList = new Array();
+        this.setInitialCategory();
+        $(".image-box").attr('onclick', 'openModal(this)');
+    }
+
+    setInitialCategory(){
+        this.changeCategory("image-box");
     }
 
 
