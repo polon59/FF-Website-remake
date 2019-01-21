@@ -1,14 +1,11 @@
 var gallerySlides = new GallerySlideShow();
+gallerySlides.changeCategory("image-box");
+
 
 function filterSeclection(categoryName) {
-  if (categoryName == "all") {
-    $(".image-box").show();
-    gallerySlides.changeCategory("all");
-  }else{
     $(".image-box").hide();
     $(`.${categoryName}`).show();
     gallerySlides.changeCategory(categoryName);
-  }
 }
 
 function displayPrevPhoto(){

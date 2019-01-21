@@ -35,11 +35,7 @@ class GallerySlideShow{
 
 
     changeCurrentCategoryImgList(newCategory){
-        if (newCategory == "all") {
-            this.currentCategoryList = document.getElementsByClassName("image-box");
-        } else {
-            this.currentCategoryList = document.getElementsByClassName(newCategory);
-        }
+        this.currentCategoryList = document.getElementsByClassName(newCategory);
 
         console.log(`new category set to ${newCategory}`)
 
