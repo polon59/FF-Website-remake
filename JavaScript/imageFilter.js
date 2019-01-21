@@ -8,11 +8,8 @@ function filterSeclection(categoryName) {
 }
 
 
-function showImage(category, index) {
-  
-}
+var gallerySlides = new GallerySlideShow();
 
-
-function openImgOverlay() {
-  
+function openModal(imageBox) {
+  gallerySlides.displayModal(imageBox);
 }
