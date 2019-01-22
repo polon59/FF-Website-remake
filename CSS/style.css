@@ -347,11 +347,20 @@ footer a{
     padding-bottom: 6vh;
 }
 
+.modal-menu{
+    background-color: rgba(39, 39, 39, 0.8);
+}
+
 .modal-menu .glyphicon{
     z-index: 10;
     text-align: center;
     font-size: 40px;
     color: rgb(184, 147, 0);
+}
+
+.modal-menu .additionalOption{
+    font-size: 30px;
+    color: rgb(150, 126, 42);
 }
 
 .modal-menu .glyphicon:hover{
