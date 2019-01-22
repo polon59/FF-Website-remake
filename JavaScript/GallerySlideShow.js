@@ -30,11 +30,6 @@ class GallerySlideShow{
         } else {
             this.currentIndex = selectedImage.getAttribute('data-index')-1;
         }
-
-        console.log(this.currentCategory);
-        console.log(this.currentIndex + " CURR INDEX");
-        console.log(this.currentCategoryImgList.length + " FULL LEN")
-        // this.currentIndex = selectedImageDataIndex;
     }
 
     updateIndex(value){
@@ -45,8 +40,6 @@ class GallerySlideShow{
         else if(this.currentIndex >= this.currentCategoryImgList.length){
             this.currentIndex = 0;
         }
-
-        console.log(this.currentIndex + " CURR INDEX");
         this.displayModal(this.currentIndex);
     }
 
@@ -57,8 +50,6 @@ class GallerySlideShow{
         for (let divElement of this.currentCategoryList) {
             this.currentCategoryImgList.push(divElement.getElementsByTagName('img')[0]);
         }
-
-        console.log(this.currentCategoryImgList.length + " FULL LEN")
     }
 
     changeCategory(newCategory){
