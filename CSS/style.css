@@ -338,8 +338,20 @@ footer a{
     background-color: rgba(0, 0, 0, 0.74);
 }
 
-.modal button{
-    z-index: 100;
+.modal .btn{
+    z-index: 10;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: rgb(252, 209, 15);
+    border: 1px solid rgba(146, 119, 0, 0.898);
+    color: rgb(100, 100, 100);
+}
+
+.modal .btn:hover{
+    background-color: rgb(233, 190, 1);
+    border: 1px solid rgba(95, 76, 0, 0.898);
+    color: rgb(73, 73, 73);
 }
 
 .modal img{
