@@ -55,5 +55,10 @@ class GallerySlideShow{
     changeCategory(newCategory){
         this.changeCurrentCategoryImgList(newCategory);
         this.currentCategory = newCategory;
+        this.changeActiveButton();
+    }
+
+    changeActiveButton(){
+        $(`.${this.currentCategory}-button`).addClass("activ");
     }
 }

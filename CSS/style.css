@@ -28,7 +28,7 @@
 }
 
 .activ{
-    background-color: rgb(255, 251, 221);
+    background-color: rgb(255, 251, 221)!important;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
