@@ -355,12 +355,12 @@ footer a{
     z-index: 10;
     text-align: center;
     font-size: 40px;
-    color: rgb(184, 147, 0);
+    color: rgb(141, 118, 35);
 }
 
 .modal-menu .additionalOption{
     font-size: 30px;
-    color: rgb(150, 126, 42);
+    color: rgb(102, 102, 102);
 }
 
 .modal-menu .glyphicon:hover{
