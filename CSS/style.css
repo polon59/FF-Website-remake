@@ -354,7 +354,8 @@ footer a{
 .modal img{
     padding-top: 5vh;
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 100%;
 }
 
 
