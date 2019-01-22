@@ -22,3 +22,7 @@ function openModal(selectedImage) {
   gallerySlides.setNewIndex(selectedImage);
   gallerySlides.displayModal();
 }
+
+function openCurrentImageInNewWindow(){
+  gallerySlides.openImage();
+}
