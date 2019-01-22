@@ -63,7 +63,6 @@ class GallerySlideShow{
         $(`.${this.currentCategory}-button`).removeClass("activ");
     }
 
-
     addActiveClassToCurrentButton(){
         $(`.${this.currentCategory}-button`).addClass("activ");
     }
