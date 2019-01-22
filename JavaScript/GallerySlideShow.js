@@ -66,4 +66,9 @@ class GallerySlideShow{
     addActiveClassToCurrentButton(){
         $(`.${this.currentCategory}-button`).addClass("activ");
     }
+
+    openImage(){
+        let url = this.currentCategoryImgList[this.currentIndex].getAttribute('src');
+        window.open(url,'_blank');
+    }
 }
