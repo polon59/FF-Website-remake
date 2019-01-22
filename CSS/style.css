@@ -322,11 +322,12 @@ footer a{
       height: 100%;
   }
 
-
-
-
   /* gallery */
 
+  #imagesContainer img:hover{
+      cursor: pointer;
+      filter: brightness(130%);
+  }
 
   .modal {
     display: none;
