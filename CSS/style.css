@@ -339,14 +339,14 @@ footer a{
     background-color: rgba(0, 0, 0, 0.74);
 }
 
-.modal .glyphicon{
+.modal-menu .glyphicon{
     z-index: 10;
     text-align: center;
     font-size: 40px;
     color: rgb(184, 147, 0);
 }
 
-.modal .glyphicon:hover{
+.modal-menu .glyphicon:hover{
     color: rgb(255, 200, 0);
     cursor: pointer;
 }
