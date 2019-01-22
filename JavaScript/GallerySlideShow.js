@@ -53,12 +53,18 @@ class GallerySlideShow{
     }
 
     changeCategory(newCategory){
+        this.removeActiveClassFromPrevButton();
         this.changeCurrentCategoryImgList(newCategory);
         this.currentCategory = newCategory;
-        this.changeActiveButton();
+        this.addActiveClassToCurrentButton();
     }
 
-    changeActiveButton(){
+    removeActiveClassFromPrevButton(){
+        $(`.${this.currentCategory}-button`).removeClass("activ");
+    }
+
+
+    addActiveClassToCurrentButton(){
         $(`.${this.currentCategory}-button`).addClass("activ");
     }
 }
