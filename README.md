@@ -1,4 +1,4 @@
-#### Simple promo website for local company
+#### Simple static website for local company
 My first commercial experience with web development.
 This is new version of web page created by me few months ago for local locksmith company.
 Used technologies : HTML5, CSS3, JS, JQuery, Bootstrap
